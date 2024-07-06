@@ -1,0 +1,701 @@
+<template>
+  <div class="jdistrict1">
+    <header class="jdistrict1__jumbotron">
+      <h1 class="jdistrict1__title">District 1</h1>
+    </header>
+    <div class="jdistrict1__overview-house">
+      <h3 class="jdistrict1__subtitle jdistrict1__subtitle-red">
+        Overview
+      </h3>
+      <div class="jdistrict1__overview-house-wrapper">
+        <div class="jdistrict1__left-content">
+          <div class="jdistrict1__img">
+            <img src="../assets/house2.jpg" alt="house2">
+          </div>
+        </div>
+        <div class="jdistrict1__right-content">
+          <p class="jdistrict1__text-body">
+            <strong>At Jaya Tibar</strong>, absajbsjabsa.
+          </p>
+        </div>
+      </div>
+      <h3 class="jdistrict1__subtitle jdistrict1__subtitle-red">
+        Overview Feature and Facility 
+      </h3>
+      
+      <div class="jdistrict1__jumbotron-third">
+        <div class="jdistrict1__usp-wrapper">
+          <div class="jdistrict1__usp-item">
+            <div class="jdistrict1__usp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="150px" viewBox="0 -960 960 960" width="150px" fill="#DA4132"><path d="M456-600h320q-27-69-82.5-118.5T566-788L456-600Zm-92 80 160-276q-11-2-22-3t-22-1q-66 0-123 25t-101 67l108 188ZM170-400h218L228-676q-32 41-50 90.5T160-480q0 21 2.5 40.5T170-400Zm224 228 108-188H184q27 69 82.5 118.5T394-172Zm86 12q66 0 123-25t101-67L596-440 436-164q11 2 21.5 3t22.5 1Zm252-124q32-41 50-90.5T800-480q0-21-2.5-40.5T790-560H572l160 276ZM480-480Zm0 400q-82 0-155-31.5t-127.5-86Q143-252 111.5-325T80-480q0-83 31.5-155.5t86-127Q252-817 325-848.5T480-880q83 0 155.5 31.5t127 86q54.5 54.5 86 127T880-480q0 82-31.5 155t-86 127.5q-54.5 54.5-127 86T480-80Z"/></svg>
+            </div>
+            <div class="jdistrict1__label-usp">
+              <p class="jdistrict1__text-body-1">Integreted Camera</p>
+            </div>
+          </div>
+          <div class="jdistrict1__usp-item">
+            <div class="jdistrict1__usp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="150px" viewBox="0 -960 960 960" width="150px" fill="#DA4132"><path d="M180-520q-26 0-43-17t-17-43q0-26 17-43t43-17q26 0 43 17t17 43q0 26-17 43t-43 17ZM120-80v-200H80v-160q0-17 11.5-28.5T120-480h120q17 0 28.5 11.5T280-440v160h-40v120h320v-200h-70q-71 0-120.5-49.5T320-530q0-53 28.5-94.5T422-686q11-65 60.5-109.5T600-840q68 0 117.5 44.5T778-686q45 20 73.5 61.5T880-530q0 71-49.5 120.5T710-360h-70v200h200v80H120Zm370-360h220q38 0 64-26t26-64q0-27-14.5-49T746-612l-42-18-6-44q-6-37-33.5-61.5T600-760q-37 0-64.5 24.5T502-674l-6 44-42 18q-25 11-39.5 33T400-530q0 38 26 64t64 26Zm110-160Z"/></svg>
+            </div>
+            <div class="jdistrict1__label-usp">
+              <p class="jdistrict1__text-body-1">Landscape Garden</p>
+            </div>
+          </div>
+          <div class="jdistrict1__usp-item">
+            <div class="jdistrict1__usp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="150px" viewBox="0 -960 960 960" width="150px" fill="#DA4132"><path d="m480-840 440 330-48 64-72-54v380H160v-380l-72 54-48-64 440-330ZM294-478q0 53 57 113t129 125q72-65 129-125t57-113q0-44-30-73t-72-29q-26 0-47.5 10.5T480-542q-15-17-37.5-27.5T396-580q-42 0-72 29t-30 73Zm426 278v-360L480-740 240-560v360h480Zm0 0H240h480Z"/></svg>
+            </div>
+            <div class="jdistrict1__label-usp">
+              <p class="jdistrict1__text-body-1">Prayer Building</p>
+            </div>
+          </div>
+          <div class="jdistrict1__usp-item">
+            <div class="jdistrict1__usp-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" height="150px" viewBox="0 -960 960 960" width="150px" fill="#DA4132"><path d="M680-280q25 0 42.5-17.5T740-340q0-25-17.5-42.5T680-400q-25 0-42.5 17.5T620-340q0 25 17.5 42.5T680-280Zm0 120q31 0 57-14.5t42-38.5q-22-13-47-20t-52-7q-27 0-52 7t-47 20q16 24 42 38.5t57 14.5ZM480-80q-139-35-229.5-159.5T160-516v-244l320-120 320 120v227q-19-8-39-14.5t-41-9.5v-147l-240-90-240 90v188q0 47 12.5 94t35 89.5Q310-290 342-254t71 60q11 32 29 61t41 52q-1 0-1.5.5t-1.5.5Zm200 0q-83 0-141.5-58.5T480-280q0-83 58.5-141.5T680-480q83 0 141.5 58.5T880-280q0 83-58.5 141.5T680-80ZM480-494Z"/></svg>
+            </div>
+            <div class="jdistrict1__label-usp">
+              <p class="jdistrict1__text-body-1">Security 24 Hours</p>
+            </div>
+          </div>
+        </div>
+        <div class="jdistrict1__two-content-wrapper">
+          <div class="jdistrict1__left-content">
+            <p class="jdistrict1__text-body">
+              Where comfort meets security in a beautifully designed community. Our cluster houses are equipped with integrated security cameras, providing round-the-clock surveillance to ensure your peace of mind. Enjoy leisurely strolls in our landscaped park, a serene space perfect for relaxation and family activities.
+            </p>
+          </div>
+          <div class="jdistrict1__right-content jdistrict1__right-content-flx-1">
+            <p class="jdistrict1__text-body">
+              Our dedicated on-site security personnel are available 24/7, adding an extra layer of safety for all residents. Additionally, our community features a prayer building, offering a tranquil space for spiritual reflection and prayer. Experience the ideal blend of convenience, safety, and tranquility at District 1 Cluster House.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="jdistrict1__one-content-wrapper">
+        <Table></Table>
+      </div>
+      <h3 class="jdistrict1__subtitle jdistrict1__subtitle-red">
+        Tech Specification & Map 
+      </h3>
+      <div class="jdistrict1__table-container">
+        <div class="jdistrict1__table-responsive">
+          <table class="jdistrict1__comparison-table">
+            <thead>
+              <tr>
+                <th><strong>Feature</strong></th>
+                <th><strong>District 1</strong></th>
+                <th><strong>District 2</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><strong>Tech Specification</strong></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <tr>
+                <td>Pondasi</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>
+              <tr>
+                <td>Struktur</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>
+              <tr>
+                <td>Dinding</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>
+              <tr>
+                <td>Lantai</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>
+              <tr>
+                <td>Kusen & Pintu</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>
+              <tr>
+                <td>Plafon</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>    
+              <tr>
+                <td>Atap</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>    
+              <tr>
+                <td>Sanitair</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>    
+              <tr>
+                <td>Instalasi Air</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>    
+              <tr>
+                <td>Daya Listrik</td>
+                <td>Overlay, Esc, <span class="is-diff">Auto-Close, Form Submission, </span></td>
+                <td class="is-gray">Unknown</td>
+              </tr>    
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="jdistrict1__section-map">
+        <div class="jdistrict1__section-map-content">
+          <img src="../assets/map-hous.png" alt="map">
+          <Tooltip class="jdistrict1__tooltip jdistrict1__tooltip-1" text="Garage">
+            <div class="jdistrict1__tooltip-dot"></div>
+          </Tooltip>
+          <Tooltip class="jdistrict1__tooltip jdistrict1__tooltip-2" text="Bedroom 2">
+            <div class="jdistrict1__tooltip-dot"></div>
+          </Tooltip>
+          <Tooltip class="jdistrict1__tooltip jdistrict1__tooltip-3" text="Main Bedroom">
+            <div class="jdistrict1__tooltip-dot"></div>
+          </Tooltip>
+          <Tooltip class="jdistrict1__tooltip jdistrict1__tooltip-4" text="Toilet">
+            <div class="jdistrict1__tooltip-dot"></div>
+          </Tooltip>
+          <Tooltip class="jdistrict1__tooltip jdistrict1__tooltip-5" text="Kitchen">
+            <div class="jdistrict1__tooltip-dot"></div>
+          </Tooltip>
+          <Tooltip class="jdistrict1__tooltip jdistrict1__tooltip-6" text="Dining Room">
+            <div class="jdistrict1__tooltip-dot"></div>
+          </Tooltip>
+          <Tooltip class="jdistrict1__tooltip jdistrict1__tooltip-7" text="Front Side">
+            <div class="jhomeview__tooltip-dot"></div>
+          </Tooltip>
+        </div>
+      </div>
+      <div class="jdistrict1__image-map">
+        <img src="../assets/house1-map.png" alt="">
+        <img src="../assets/house2-map.png" alt="">
+      </div>
+      <h3 class="jdistrict1__subtitle jdistrict1__subtitle-red">
+        Location and Benefit 
+      </h3>
+      <div class="jdistrict1__loc-benefit-content">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.693980515312!2d106.81616671045975!3d-6.303878893658966!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ed00282086d5%3A0x9981bf465115f0bd!2sSapo%20Ragunan!5e0!3m2!1sid!2sid!4v1719303935191!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </div>
+</template>
+
+<script>
+  import Tooltip from '../components/Tooltip.vue'
+  import Table from '../components/Table.vue'
+
+  export default {
+    name: 'CommercialView',
+    components: {
+      Tooltip,
+      Table
+    }
+  }
+</script>
+
+<style scoped lang="scss">
+  .jdistrict1 {
+    &__jumbotron {
+      height: 750px;
+      background-image: url('../assets/house1.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: inherit;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    &__title {
+      font-size: 3rem;
+      margin: 0;
+      padding: 0;
+      &-red {
+        color: #DA4132;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    &__subtitle {
+      font-size: 1.9rem;
+      margin: 0;
+      padding: 0;
+      &-red {
+        color: #DA4132;
+        display: flex;
+        justify-content: center;
+      }
+    }
+    &__overview-house {
+      display: flex;
+      width: 1200px;
+      margin: 20px auto;
+      gap: 40px;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    &__background-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+      padding: 40px 0;
+    }
+    &__overview-house-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+    }
+    &__text-body {
+      font-size: 1.1rem;
+      line-height: 28px;
+      color: darkcyan;
+      &-1 {
+        font-size: 1.4rem;
+        color: #232222;
+        font-weight: 600;
+        padding: 0px;
+        margin: 0px;
+        text-align: center;
+      }
+      &-3 {
+        font-size: 1rem;
+        color: #232222;
+        text-align: center;
+      }
+    }
+    &__left-content {
+      flex: 1;
+      img {
+        width: 600px;
+        border-radius: 4px;
+      }
+    }
+    &__left-content-background {
+      flex: 1;
+      img {
+        width: 700px;
+      }
+    }
+    &__right-content-background {
+      flex: 1;
+    }
+    &__right-content {
+      &-flx-1 {
+        flex: 1;
+      }
+    }
+    &__table {
+      display: flex;
+    }
+    &__jumbotron-second {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+    }
+    &__left-border {
+      border-right: 2px solid #DA4132;
+    }
+    &__usp-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    &__usp-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 200px;
+    }
+    &__usp-icon {
+      svg {
+        width: 100px;
+      }
+    }
+    &__label-usp {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    &__one-content-wrapper {
+      align-items: center;
+      justify-content: center;
+      width: 900px;
+      align-self: center;
+    }
+    &__two-content-wrapper {
+      display: flex;
+      gap: 60px;
+      align-items: center;
+      justify-content: center;
+    }
+    &__jumbotron-fourth {
+      align-self: center;
+    }
+    &__container-center {
+      display: flex;
+      gap: 20px;
+      padding: 20px 0px;
+      align-items: center;
+      justify-content: center;
+    }
+    &__table-container {
+      width: 800px;
+      margin: 0 auto;
+      overflow-x: auto;
+    }
+    // &__comparison-table {
+    //   width: 100%;
+    //   border-collapse: collapse;
+
+    //   thead {
+    //     font-size: 1.9rem;
+    //     color: #DA4132;
+
+    //     th:nth-of-type(1) {
+    //       text-align: left;
+    //     }
+
+    //     th:nth-of-type(2),
+    //     th:nth-of-type(3) {
+    //       width: 25%;
+    //     }
+
+    //     th:nth-of-type(2) {
+    //       color: #DA4132;
+    //     }
+
+    //     th:nth-of-type(3) {
+    //       color: darkcyan;
+    //     }
+    //   }
+
+    //   tbody {
+    //     tr {
+    //       td {
+    //         padding: 10px;
+    //         vertical-align: top;
+    //         text-align: center;
+    //         line-height: 1.5;
+
+    //         &:nth-of-type(1) {
+    //           text-align: left;
+    //           font-size: 1.1rem;
+    //           line-height: 28px;
+    //           color: darkcyan;
+    //           padding-left: 30px;
+    //         }
+    //       }
+
+    //       &.has-strong {
+    //         border-top: 1px dashed rgba(20, 16, 44, 0.15);
+    //         background-color: #FDF8F7;
+
+    //         td:nth-of-type(2):before {
+    //           content: "PRO";
+    //           color: #6d241d;
+    //           font-weight: 700;
+    //         }
+
+    //         td:nth-of-type(3):before {
+    //           content: "FREE";
+    //           color: #F95C5C;
+    //           font-weight: 700;
+    //         }
+    //       }
+    //     }
+    //   }
+
+    //   .is-diff {
+    //     color: #6d241d;
+    //     font-weight: 700;
+    //   }
+
+    //   .is-gray {
+    //     color: lightgray;
+    //   }
+    // }
+    // @media screen and (max-width: 768px) {
+    //   .jdistrict1__comparison-table {
+    //     th:nth-of-type(2),
+    //     th:nth-of-type(3),
+    //     tr:last-child {
+    //       display: none;
+    //     }
+
+    //     thead tr {
+    //       display: block !important;
+    //     }
+
+    //     tr {
+    //       display: flex;
+    //       flex-wrap: wrap;
+
+    //       td {
+    //         &:nth-of-type(1) {
+    //           width: 100%;
+    //         }
+
+    //         &:nth-of-type(2),
+    //         &:nth-of-type(3) {
+    //           flex-basis: calc(50% - 20px);
+    //           background-color: rgba(216, 214, 227, 0.15);
+    //         }
+    //       }
+
+    //       &.has-strong {
+    //         td:nth-of-type(2),
+    //         td:nth-of-type(3) {
+    //           background-color: unset;
+    //         }
+    //       }
+    //     }
+    //   }
+    // }
+    // @media screen and (min-width: 768px) {
+    //   .jdistrict1__comparison-table th:nth-of-type(2),
+    //   .jdistrict1__comparison-table td:nth-of-type(2) {
+    //     background-color: rgba(216, 214, 227, 0.15);
+    //   }
+    // }
+    &__section-map {
+      background: linear-gradient(
+        to bottom,
+        #DA4132 0%,
+        #DA4132 50%,
+        #8d372f 50%,
+        #8d372f 100%
+      );
+      padding: 80px 0px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 8px;
+    }
+    &__section-map-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      width: 1000px;
+      img { 
+        border-radius: 8px;
+        box-shadow: 0 2px 12px 0 #00000033;
+        width: 800px;
+      }
+    }
+    &__title-section-map {
+      color: whitesmoke;
+      font-size: 50px;
+      font-weight: 100;
+      text-transform: uppercase;
+    }
+    &__tooltip {
+      position: absolute;
+      &-1 {
+        left: 300px;
+        top: 178px;
+      }
+      &-2 {
+        left: 630px;
+        top: 150px;
+      }
+      &-3 {
+        top: 150px;
+        left: 455px;
+      }
+      &-4 {
+        top: 150px;
+        right: 432px;
+      }
+      &-5 {
+        bottom: 200px;
+        right: 373px;
+      }
+      &-6 {
+        bottom: 230px;
+        right: 430px;
+      }
+      &-7 {
+        bottom: 250px;
+        left: 395px;
+      } 
+    }
+    &__tooltip-dot {
+      width: 20px;
+      height: 20px;
+      background-color: #DA4132;
+      border-radius: 50%;
+      position: relative;
+      animation: pulse 2s infinite;
+      border: 2px solid lightgray;
+    }
+    &__usp-wrapper {
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+    }
+    &__usp-item {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      width: 200px;
+    }
+    &__usp-icon {
+      svg {
+        width: 100px;
+      }
+    }
+    &__label-usp {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+    &__two-content-wrapper {
+      display: flex;
+      gap: 60px;
+      align-items: center;
+      justify-content: center;
+    }
+    &__image-map {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr) !important;
+      gap: 20px;
+      img {
+        border-radius: 8px;
+        width: 100%;
+      }
+    }
+  }
+
+.jdistrict1__comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.jdistrict1__comparison-table thead {
+  font-size: 1.9rem;
+  color: #DA4132;
+}
+.jdistrict1__comparison-table th:nth-of-type(1) {
+  text-align: left;
+}
+.jdistrict1__comparison-table th:nth-of-type(2) {
+  color: #DA4132;
+}
+.jdistrict1__comparison-table th:nth-of-type(3) {
+  color: darkcyan;
+}
+.jdistrict1__comparison-table th:nth-of-type(2),
+.jdistrict1__comparison-table th:nth-of-type(3) {
+  width: 25%;
+}
+@media screen and (max-width: 768px) {
+  .jdistrict1__comparison-table th:nth-of-type(2),
+  .jdistrict1__comparison-table th:nth-of-type(3),
+  .jdistrict1__comparison-table tr:last-child {
+    display: none;
+  }
+  .jdistrict1__comparison-table thead tr {
+    display: block !important;
+  }
+  .jdistrict1__comparison-table tr {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .jdistrict1__comparison-table tr th:nth-of-type(1),
+  .jdistrict1__comparison-table tr td:nth-of-type(1) {
+    width: 100%;
+  }
+  .jdistrict1__comparison-table tr th:nth-of-type(2),
+  .jdistrict1__comparison-table tr th:nth-of-type(3),
+  .jdistrict1__comparison-table tr td:nth-of-type(2),
+  .jdistrict1__comparison-table tr td:nth-of-type(3) {
+    flex-basis: calc(50% - 20px);
+    background-color: rgba(216, 214, 227, 0.15);
+  }
+  .jdistrict1__comparison-table tr:has(strong) td:nth-of-type(2),
+  .jdistrict1__comparison-table tr:has(strong) td:nth-of-type(3) {
+    background-color: unset;
+  }
+  .jdistrict1__comparison-table tr:has(strong) td:nth-of-type(2):before {
+    content: "PRO";
+    color: #6d241d;
+    font-weight: 700;
+  }
+  .jdistrict1__comparison-table tr:has(strong) td:nth-of-type(3):before {
+    content: "FREE";
+    color: #F95C5C;
+    font-weight: 700;
+  }
+}
+.jdistrict1__comparison-table td:nth-of-type(1) {
+  text-align: left;
+  font-size: 1.1rem;
+  line-height: 28px;
+  color: darkcyan;
+}
+.jdistrict1__comparison-table td:nth-of-type(2),
+.jdistrict1__comparison-table td:nth-of-type(3) {
+  text-align: center;
+  line-height: 1.5;
+}
+@media screen and (min-width: 768px) {
+  .jdistrict1__comparison-table th:nth-of-type(2),
+  .jdistrict1__comparison-table td:nth-of-type(2) {
+    background-color: rgba(216, 214, 227, 0.15);
+  }
+}
+.jdistrict1__comparison-table tr:has(> td strong) {
+  border-top: 1px dashed rgba(20, 16, 44, 0.15);
+  background-color: #FDF8F7;
+}
+.jdistrict1__comparison-table tr td strong {
+  font-size: 1.5rem;
+  color: #6d241d;
+}
+.jdistrict1__comparison-table th, .jdistrict1__comparison-table td {
+  padding: 8px;
+}
+.jdistrict1__comparison-table td:first-child {
+  padding-left: 30px;
+}
+.jdistrict1__comparison-table td:first-child strong,
+.jdistrict1__comparison-table td:first-child details summary {
+  margin-left: -20px;
+}
+.jdistrict1__comparison-table .is-diff {
+  color: #6d241d;
+  font-weight: 700;
+}
+.jdistrict1__comparison-table .is-gray {
+  color: lightgray;
+}
+.jdistrict1__comparison-table td {
+  vertical-align: top;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 1;
+    }
+    50% {
+        transform: scale(1.5);
+        opacity: 0.5;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+  }
+
+</style>
